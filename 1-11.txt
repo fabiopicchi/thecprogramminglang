@@ -1,0 +1,6 @@
+I would test the program running it with no input, with a word with a single character, empty lines.
+
+Boundary cases such as the ones listed above are excellent test cases albeit being 
+very uncommon inputs. The programmer usually tests common, reasonable inputs to the 
+program and forgets to validate unusual situations.
+
