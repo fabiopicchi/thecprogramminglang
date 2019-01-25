@@ -1,3 +1,8 @@
+// getline was added to the POSIX standard in 2008
+// two line below were added to avoid conflict in the getline implementation
+#undef _POSIX_C_SOURCE
+#define _POSIX_C_SOURCE 200112L
+
 #include <stdio.h>
 #define MAXLINE 1000
 #define TARGETLEN 80

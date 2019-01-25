@@ -16,9 +16,9 @@ void entab(int columns)
     int c;
 
     while ((c=getchar()) != EOF) {
-        if (c == ' ') {
+        if (c == ' ')
             ++nblanks;
-        } else  {
+        else {
             // preference was given to '\t' where a single ' ' would suffice 
             // to avoid a special case
             while (nblanks > 0) {
