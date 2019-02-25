@@ -1,3 +1,5 @@
+#undef _POSIX_C_SOURCE
+#define _POSIX_C_SOURCE 200112L
 #include <stdio.h>
 #define MAXLINE 1000
 

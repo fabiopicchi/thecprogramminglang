@@ -39,7 +39,6 @@ void fold(int columns)
                     // check for edge case when word has more than ncolumns characters
                     int nlines = wordlen / columns;
                     
-
                     putchar('\n');
                     // skip the first blank character of this section
                     // as it is being swaped for a '\n' for the fold operation
